@@ -29,7 +29,7 @@ Pensando em um **sistema de catálogo de filmes**, faça a modelagem de dados co
 
 Você pode escolher e fazer:
 
-- **Apenas** Modelagem Lógica
-- Modelagem Conceitual **e** Modelagem Lógica
+- **Apenas** Modelagem Lógica (MySQL Workbench)
+- Modelagem Conceitual (BrModelo) **e** Modelagem Lógica (MySQL Workbench)
 
 Ao final do exercício, **exporte a modelagem como formato de imagem** e coloque em seu repositório.
