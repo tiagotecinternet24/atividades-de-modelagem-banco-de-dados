@@ -32,3 +32,4 @@ Você pode escolher e fazer:
 - **Apenas** Modelagem Lógica
 - Modelagem Conceitual **e** Modelagem Lógica
 
+Ao final do exercício, **exporte a modelagem como formato de imagem** e coloque em seu repositório.
