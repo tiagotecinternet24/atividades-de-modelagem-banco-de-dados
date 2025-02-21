@@ -25,7 +25,7 @@ Pensando em um **sistema de catálogo de filmes**, faça a modelagem de dados co
 
 **Obs.:** os detalhes devem estar **relacionados** a um filme da tabela Filmes, e os detalhes pertecem a somente um filme.
 
-### Sobre a modelagem
+### Qual modelagem fazer?
 
 Você pode escolher e fazer:
 
