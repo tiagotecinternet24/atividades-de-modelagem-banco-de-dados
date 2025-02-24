@@ -1,5 +1,17 @@
 # Banco de Dados - enunciados dos exercícios
 
+## Exercício 02 - 24/02/2025
+
+No **phpMyAdmin** utilizando comandos SQL para fazer a **Modelagem Física** do exercício anterior (Catálogo de Filmes).
+
+Você deve:
+
+- Criar um novo banco de dados (Catálogo de Filmes)
+- Criar três tabelas, conforme a modelagem feita em seu exercício anterior
+- Fazer o relacionamento entre as tabelas, definindo a ligação entre chaves estrageiras e primárias.
+
+---
+
 ## Exercício 01 - 21/02/2025
 
 Pensando em um **sistema de catálogo de filmes**, faça a modelagem de dados conforme orientações a seguir:
