@@ -73,3 +73,4 @@ VALUES(
 ```
 
 
+## Comandos do exercícios
