@@ -23,3 +23,14 @@ CREATE TABLE filmes(
     genero_id INT NOT NULL -- será uma FK (chave estrangeira)
 );
 ```
+
+```sql
+CREATE TABLE detalhes(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    duracao INT NOT NULL,
+    sinopse TEXT(1000) NOT NULL,
+    bilheteria DECIMAL(16,2) NULL,
+    orcamento DECIMAL(16,2) NULL,
+    filme_id INT NOT NULL -- será uma FK (chave estrangeira)
+);
+```
