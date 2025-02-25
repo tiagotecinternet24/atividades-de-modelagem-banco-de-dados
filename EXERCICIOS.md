@@ -1,5 +1,27 @@
 # Banco de Dados - enunciados dos exercícios
 
+## Exercício 03 - 25/02/2025
+
+Insira mais dois fabricantes em seu banco de dados `vendas`:
+
+- Positivo
+- Microsoft
+
+Adicione mais dois produtos na tabela `produtos` conforme indicado:
+
+- Xbox Series S
+    - Valor: R$ 1.997,00
+    - Quantidade: 5
+    - Fabricante: Microsoft
+    - Descrição: Velocidade e desempenho de última geração.
+- Notebook Motion
+    - Quantidade: 8
+    - Valor: R$ 1.213,65
+    - Fabricante: Positivo
+    - Descrição: Intel Dual Core 4GB de RAM, 128GB SSD e Tela 14,1 polegadas.
+
+---
+
 ## Exercício 02 - 24/02/2025
 
 No **phpMyAdmin** utilizando comandos SQL para fazer a **Modelagem Física** do exercício anterior (Catálogo de Filmes).
