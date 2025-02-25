@@ -34,3 +34,17 @@ CREATE TABLE detalhes(
     filme_id INT NOT NULL -- será uma FK (chave estrangeira)
 );
 ```
+
+## Alterando as tabelas e configurando as chaves estrangeiras (FKs)
+
+```sql
+ALTER TABLE filmes
+    ADD CONSTRAINT fk_filmes_generos
+    FOREIGN KEY(genero_id) REFERENCES generos(id);
+```
+
+```sql
+ALTER TABLE detalhes
+    ADD CONSTRAINT fk_detalhes_filmes
+    FOREIGN KEY(filme_id) REFERENCES filmes(id);
+```
