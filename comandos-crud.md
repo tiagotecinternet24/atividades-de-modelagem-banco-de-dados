@@ -72,5 +72,22 @@ VALUES(
 );
 ```
 
+---
 
-## Comandos do exercícios
+## Comandos do exercício 03
+
+```sql
+INSERT INTO fabricantes(nome) VALUES('Microsoft'), ('Positivo');
+
+INSERT INTO produtos(nome, preco, quantidade, fabricante_id, descricao) 
+VALUES('Xbox Series S', 1997, 5, 7, 'Velocidade e desempenho de última geração.');
+
+INSERT INTO produtos(nome, quantidade, preco, fabricante_id, descricao) 
+VALUES(
+    'Notebook Motion', 
+    8, 
+    1213.65, 
+    8, 
+    'Intel Dual Core 4GB de RAM, 128GB SSD e Tela 14,1 polegadas.'
+);
+```
