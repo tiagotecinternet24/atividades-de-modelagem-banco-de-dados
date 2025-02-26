@@ -1,5 +1,17 @@
 # Banco de Dados - enunciados dos exercícios
 
+## Exercício 04 - 26/02/2025
+
+Usando o banco de dados do seu exercício (Catálogo de Filmes), experimente **livremente** os comandos CRUD para realizar operações nas tabelas: Gêneros, Filmes e Detalhes.
+
+### Sugestões
+
+1. Insira 4 gêneros: Terror, Suspense, Fantasia e Ação
+2. Insira 3 filmes, contendo: Título, Data de Lançamento (YYYY-MM-DD) e o Gênero de acordo com a chave estrangeira
+3. Insira pelo menos 3 detalhes (ou seja, um para cada filme) contendo: duração, sinopse, bilheteria (opcional), orçamento (opcional) e o Filme ao qual o detalhe pertence de acordo com a chave estrangeira.
+
+---
+
 ## Exercício 03 - 25/02/2025
 
 Insira mais dois fabricantes em seu banco de dados `vendas`:
