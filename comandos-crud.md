@@ -91,3 +91,20 @@ VALUES(
     'Intel Dual Core 4GB de RAM, 128GB SSD e Tela 14,1 polegadas.'
 );
 ```
+
+---
+
+## SELECT (Produtos)
+
+```sql
+-- Lendo TODAS as colunas de TODOS os registros
+SELECT * FROM produtos;
+
+-- Lendo somente nome e preco de todos os registros
+SELECT nome, preco FROM produtos;
+SELECT preco, nome FROM produtos;
+
+-- Mostrar nome, preco e quantidade SOMENTE dos produtos que custam abaixo de 5000
+SELECT nome, preco, quantidade FROM produtos
+WHERE preco < 5000;
+```
