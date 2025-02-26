@@ -165,3 +165,18 @@ UPDATE produtos SET quantidade = 10
 -- WHERE preco < 2000 AND NOT fabricante_id = 7;
 WHERE preco < 2000 AND fabricante_id != 7;
 ```
+
+---
+
+## DELETE (Fabricantes e Produtos)
+
+**☠️ PRERIGO! 🚨**
+
+**SEMPRE USE** a cláusula `WHERE` em seu comando `DELETE` especificando uma ou mais condições para a atualização.
+
+```sql
+DELETE FROM fabricantes WHERE id = 4;
+DELETE FROM fabricantes WHERE id = 1;
+DELETE FROM produtos WHERE id = 4;
+DELETE FROM fabricantes WHERE id = 3;
+```
